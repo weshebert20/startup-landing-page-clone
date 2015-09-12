@@ -33,3 +33,12 @@ html {
     cursor: pointer;
     color: #333333;
 }
+/**Introduction Section **/
+.introduction {
+	background-image: url(../images/first-background.jpg);
+	background-size: cover;
+	height: 45rem;
+	background-repeat: no-repeat;
+	overflow: auto;
+	background-repeat: no-repeat;
+}
