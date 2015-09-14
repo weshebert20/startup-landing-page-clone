@@ -5,8 +5,18 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body {
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+.content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+}
 .top-navigation {
     background-color: #fff;
+    width: 100%;
 }
 .top-navigation > .content {
     width: 970px;
@@ -15,11 +25,9 @@ html {
 }
 .top-navigation .links {
     float: right;
-    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
-    -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
     display: inline-block;
@@ -40,5 +48,38 @@ html {
 	height: 45rem;
 	background-repeat: no-repeat;
 	overflow: auto;
-	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.introduction h1,
+.introduction h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 17.5rem;
+	font-size: 3.125rem;
+}
+.introduction h3 {
+	margin-top: .25rem;
+	font-size: 1.563rem;
+}
+.buttons {
+	text-align: center;
+}
+button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+button:hover {
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
 }
