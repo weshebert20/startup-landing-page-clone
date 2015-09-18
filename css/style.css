@@ -198,6 +198,9 @@ button:hover {
 .social .instagram {
     color: #3f729b;
 }
+.social .icons > li:hover{
+	cursor: pointer;
+}
 .social .copy {
     font-size: 0.9rem;
     font-weight: 300;
